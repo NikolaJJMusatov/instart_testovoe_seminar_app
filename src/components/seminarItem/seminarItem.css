@@ -1,0 +1,57 @@
+.seminarItem {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #B0C4DE;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.titleSeminar { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.containerSeminarFoto {
+  display: flex;
+  gap: 20px;
+}
+
+.seminarFoto {
+  width: 250px;
+  border-radius: 5%;
+}
+
+.seminarDescription {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.containerSeminarButtons {
+  block-size: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonEdit {
+  background-color: transparent;
+  min-inline-size: 15%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonEdit:hover {
+  background-color: rgb(104, 104, 223);
+}
+
+.buttonDelete {
+  background-color: transparent;
+  min-inline-size: 15%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonDelete:hover {
+  background-color: rgba(209, 22, 22, 0.797);
+}
